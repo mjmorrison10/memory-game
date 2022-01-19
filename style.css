@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+}
+
+.grid img {
+  cursor: pointer;
+}
+
+#result {
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 0.25rem 0.5rem;
+  transition: 250ms ease-in-out;
+  cursor: pointer;
+}
+
+#result:hover {
+  background-color: black;
+  color: white;
+}
